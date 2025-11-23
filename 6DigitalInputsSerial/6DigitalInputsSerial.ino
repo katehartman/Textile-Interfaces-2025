@@ -46,17 +46,17 @@ void loop() {
   buttonValue5 = digitalRead(buttonPin5);
   buttonValue6 = digitalRead(buttonPin6);
 
-  Serial.print("Val 1 :");
+  Serial.print("Val 1: ");
   Serial.print(buttonValue1);
-  Serial.print("Val 2 :");
+  Serial.print(", Val 2: ");
   Serial.print(buttonValue2);
-  Serial.print("Val 3 :");
+  Serial.print("Val 3: ");
   Serial.print(buttonValue3);
-  Serial.print("Val 4 :");
+  Serial.print("Val 4: ");
   Serial.print(buttonValue4);
-  Serial.print("Val 5 :");
+  Serial.print("Val 5: ");
   Serial.print(buttonValue5);
-  Serial.print("Val 6 :");
+  Serial.print("Val 6: ");
   Serial.println(buttonValue6);
 
   delay(DEBOUNCE);  // delay in between reads for stability

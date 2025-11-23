@@ -32,13 +32,13 @@ void loop() {
   sensorValue3 = analogRead(sensorPin3);
   sensorValue4 = analogRead(sensorPin4);
 
-  Serial.print("Val 1 :");
+  Serial.print("Val 1: ");
   Serial.print(sensorValue1);
-  Serial.print("Val 2 :");
+  Serial.print(", Val 2: ");
   Serial.print(sensorValue2);
-  Serial.print("Val 3 :");
+  Serial.print(", Val 3: ");
   Serial.print(sensorValue3);
-  Serial.print("Val 4 :");
+  Serial.print(", Val 4: ");
   Serial.println(sensorValue4);
 
   delay(DEBOUNCE);  // delay in between reads for stability
